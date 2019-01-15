@@ -20,5 +20,5 @@ server.use(express.static('build'))
 
 const port = process.env.port || 8080
 server.listen(port, () => {
-  console.log('App listening on port ' + port);
+  console.log('App listening on port ' + port)
 })
